@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: plain-light;
+  src: url(./fonts/plain-light-webfont.woff);
+}
+@font-face {
+  font-family: plain-regular;
+  src: url(./fonts/plain-light-webfont.woff);
+}
+@font-face {
+  font-family: silkserif-lightitalic;
+  src: url(./fonts/plain-light-webfont.woff);
+}
+@font-face {
+  font-family: silkserif-regularitalic;
+  src: url(./fonts/plain-light-webfont.woff);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div#loader {
+  font-family: plain-regular, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  /* line-height: 1; */
+  line-height: 1.2;
+  letter-spacing: 2px;
+}
+
+.line {
+  overflow: hidden;
+}
+
+.line h1 {
+  padding: 0 8px;
+}
+
+.line-container {
+  overflow: hidden;
+}
+
+#line1 > h1.counter {
+  font-family: silkserif-lightitalic;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 40px;
+  line-height: 2;
+}
