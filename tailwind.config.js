@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundColor: {
-        loaderBlack: "#151515"
+        loaderBlack: "#0B0B0B",
+        mainBlack: "#151515"
       }
     },
   },

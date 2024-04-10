@@ -11,25 +11,25 @@
   src: url(./fonts/plain-light-webfont.woff);
 }
 @font-face {
-  font-family: silkserif-lightitalic;
+  font-family: silkserif-light;
   src: url(./fonts/plain-light-webfont.woff);
 }
 @font-face {
-  font-family: silkserif-regularitalic;
+  font-family: silkserif-regular;
   src: url(./fonts/plain-light-webfont.woff);
 }
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: #fff;
 }
 
 div#loader {
-  font-family: plain-regular, Helvetica, Arial, sans-serif;
+  font-family: Plain, Helvetica Neue, Arial, Noto Sans, sans-serif;
   font-weight: 600;
   /* line-height: 1; */
-  line-height: 1.2;
-  letter-spacing: 2px;
+  line-height: 1.1;
 }
 
 .line {
@@ -45,9 +45,53 @@ div#loader {
 }
 
 #line1 > h1.counter {
-  font-family: silkserif-lightitalic;
-  font-weight: 300;
+  font-family: "Silk Serif", Plain;
+  font-weight: 400;
   font-style: italic;
-  font-size: 40px;
-  line-height: 2;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  letter-spacing: -2px;
+  width: 250px;
+  margin: 0 50px 0 0;
+  text-wrap: nowrap;
+  text-align: right;
+}
+
+#line3 h1:last-child {
+  width: 300px;
+  animation: blink 1.5s linear infinite;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 25% auto;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0;
+    color: transparent;
+  }
+
+  50% {
+    opacity: 1;
+    font-family: "Silk Serif", Plain;
+    font-style: italic;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    font-weight: 0;
+  }
+
+  75% {
+    color: transparent;
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }

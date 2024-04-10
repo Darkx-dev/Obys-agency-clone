@@ -1,10 +1,11 @@
 import Loader from "./components/Loader"
-
+import Navbar from "./components/Navbar"
 function App() {
   return (
-    <div>
+    <main className="bg-mainBlack min-h-screen" id="main">
       <Loader/>
-    </div>
+      <Navbar/>
+    </main>
   )
 }
 
