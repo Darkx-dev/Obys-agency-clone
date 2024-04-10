@@ -26,8 +26,8 @@
 }
 
 div#loader {
-  font-family: Plain, Helvetica Neue, Arial, Noto Sans, sans-serif;
   font-weight: 600;
+  font-family: Plain, Helvetica Neue, Arial, Noto Sans, sans-serif;
   /* line-height: 1; */
   line-height: 1.1;
 }
@@ -62,9 +62,27 @@ div#loader {
   animation: blink 1.5s linear infinite;
 }
 
+#line__3 h1:hover {
+  cursor: pointer;
+  transition: all 0.25s;
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+  text-decoration: none;
+}
+
 nav {
   display: grid;
+  transition: 0.5s all;
+  font-family: Plain, Helvetica Neue, Arial, Noto Sans, sans-serif;
   grid-template-columns: 25% auto;
+}
+
+.order {
+  font-family: "Silk Serif", Plain;
+  font-size: 3.5rem;
+  font-style: italic;
+  font-weight: 100;
+  letter-spacing: -4px;
 }
 
 @keyframes blink {

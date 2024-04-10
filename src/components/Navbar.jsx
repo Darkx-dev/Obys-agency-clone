@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav className="navbar py-14 px-20">
+    <nav className="navbar fixed z-20 left-0 top-0 right-0 py-14 px-20">
       <div className="nav-start flex items-center gap-10">
         <div className="menu">
           <svg
