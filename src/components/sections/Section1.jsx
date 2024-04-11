@@ -1,6 +1,6 @@
 function Section1() {
   return (
-    <section data-scroll-section className="w-full" id="sec1">
+    <section data-scroll-section className="w-full backdrop-blur-sm" id="sec1">
       <div className="flex justify-center gap-20  text-[7rem] font-semibold leading-[6.8rem]">
         <div className="left-container justify-self-end">
           <div className="order w-fit">01</div>

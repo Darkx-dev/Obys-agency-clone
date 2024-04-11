@@ -85,6 +85,12 @@ nav {
   letter-spacing: -4px;
 }
 
+div.showcase {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: auto 35% 35%;
+}
+
 @keyframes blink {
   0% {
     opacity: 1;
