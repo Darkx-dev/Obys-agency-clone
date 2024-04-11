@@ -1,13 +1,14 @@
 import Loader from "./components/Loader";
 import Navbar from "./components/Navbar";
-import Section1 from "./components/Section1";
+import Sections from "./components/Sections";
 function App() {
+
   return (
     <>
       <Loader />
-      <main className="bg-mainBlack min-h-screen" id="main">
+      <main className="bg-mainBlack smooth-scroll min-h-screen w-full" id="main">
         <Navbar />
-        <Section1 />
+        <Sections/>
       </main>
     </>
   );

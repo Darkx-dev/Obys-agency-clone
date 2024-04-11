@@ -1,15 +1,15 @@
 function Section1() {
   return (
-    <div className="absolute w-full translate-y-1/2" id="sec1">
+    <section data-scroll-section className="w-full" id="sec1">
       <div className="flex justify-center gap-20  text-[7rem] font-semibold leading-[6.8rem]">
         <div className="left-container justify-self-end">
           <div className="order w-fit">01</div>
         </div>
         <div className="right-container z-10">
-          <div id="line__!">
+          <div data-scroll data-scroll-speed="1"  id="line__1">
             <h1>WE DESIGN</h1>
           </div>
-          <div id="line__2">
+          <div data-scroll data-scroll-speed="1"  id="line__2">
             <h1>UNIQUE</h1>
           </div>
           <div className="flex relative gap-5 pb-4" id="line__3">
@@ -24,12 +24,12 @@ function Section1() {
               width={300}
             />
           </div>
-          <div id="line__4">
+          <div data-scroll data-scroll-speed="1"  id="line__4">
             <h1>EXPERIENCE</h1>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
