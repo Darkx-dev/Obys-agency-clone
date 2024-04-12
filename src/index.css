@@ -87,7 +87,14 @@ nav {
 
 div.showcase {
   display: grid;
-  gap: 1rem;
+  margin: 5rem;
+  align-items: start;
+  /* align-content: start;
+  justify-self: start;
+  align-self: start;
+  justify-content: start;
+  justify-items: start; */
+  gap: 1.5rem;
   grid-template-columns: auto 35% 35%;
 }
 
