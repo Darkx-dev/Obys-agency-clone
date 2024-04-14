@@ -97,11 +97,14 @@ div.showcase {
   column-gap: 1.5rem;
   row-gap: 0;
   grid-template-columns: auto 35% 35%;
-  grid-template-rows: 34% 32% 34%;
+  grid-template-rows: 33% 33% 43%;
 }
 
 div.project-card:nth-child(5) {
   translate: 0 200px;
+}
+div.project-card:nth-child(9) {
+  align-self: flex-end;
 }
 
 button.arrow-container:nth-child(4) {
