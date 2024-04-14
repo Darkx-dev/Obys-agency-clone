@@ -15,16 +15,16 @@ function ProjectCard({
       projectDate,
       ytranslate,
     } && (
-      <div
-        data-scroll
-        data-scroll-speed="1"
-        className={`project-card translate-y-${ytranslate} `}
-      >
-        <h2 className="text-[2.8rem] text-nowrap">{projectTitle}</h2>
+      <div className={`project-card translate-y-${ytranslate} `}>
+        <h2 data-scroll data-scroll-speed="0.5" className="text-[2.8rem] text-nowrap">{projectTitle}</h2>
         <div className="project-image-container">
           <img src={projectImage} alt="Some Image" />
         </div>
-        <div className="project-des-date-container grid grid-cols-2 leading-tight text-[1rem] py-10 border-b-2 font-[400]">
+        <div
+          data-scroll
+          data-scroll-speed="0.8"
+          className="project-des-date-container grid grid-cols-2 leading-tight text-[1rem] py-10 border-b-2 font-[400]"
+        >
           <p className="">{projectDescription}</p>
           <p className="justify-self-end">{projectDate}</p>
         </div>
