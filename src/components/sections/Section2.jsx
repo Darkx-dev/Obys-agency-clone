@@ -25,7 +25,7 @@ function Section3() {
             <h1>OUR PROJECTS</h1>
           </div>
         </div>
-        <div data-scroll className="bottom-container showcase">
+        <div data-scroll className="bottom-container showcase ">
           <ProjectCard
             projectTitle={"OLGA PRUDKA"}
             projectImage={olga}
@@ -67,14 +67,16 @@ function Section3() {
             projectDate={2023}
           />
         </div>
-        <div data-scroll className="all-projects-btn-container w-full bg-red-500">
-          <button className="all-projects-brn bg-orangePulp h-[330px] w-[330px] rounded-full p-20">
-            <div className="text">
-              All Projects
+        <div
+          data-scroll
+          className="all-projects-btn-container w-full mt-20 h-[500px] flex justify-center"
+        >
+          <button className="all-projects-brn hover:scale-90 transition-transform bg-orangePulp h-[320px] w-[320px] flex justify-center items-center rounded-full p-20">
+            <div className="text-base font-semibold flex w-fit">
+              <p>All Projects</p>(<span className="font-light italic">18</span>)
             </div>
           </button>
         </div>
-
       </div>
     </section>
   );
