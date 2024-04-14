@@ -98,6 +98,7 @@ div.showcase {
   row-gap: 0;
   grid-template-columns: auto 35% 35%;
   grid-template-rows: 33% 33% 43%;
+  padding-bottom: 200px;
 }
 
 div.project-card:nth-child(5) {
@@ -108,16 +109,14 @@ div.project-card:nth-child(9) {
 }
 
 button.arrow-container:nth-child(4) {
- /* background-color: red; */
- align-self: start;
- justify-self: start;
+  /* background-color: red; */
+  align-self: start;
+  justify-self: start;
 }
 
 button.arrow-container:nth-child(4) svg {
   rotate: -45deg;
 }
-
-
 
 @keyframes blink {
   0% {

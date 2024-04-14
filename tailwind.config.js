@@ -5,8 +5,9 @@ export default {
     extend: {
       backgroundColor: {
         loaderBlack: "#0B0B0B",
-        mainBlack: "#151515"
-      }
+        mainBlack: "#151515",
+        orangePulp: "#FFA63D",
+      },
     },
   },
   plugins: [],
