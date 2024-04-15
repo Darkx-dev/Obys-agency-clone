@@ -5,7 +5,6 @@ import gsap from "gsap/gsap-core";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import LocomotiveScroll from "locomotive-scroll";
 import { useEffect } from "react";
-import Section3 from "./sections/Section2";
 
 function Sections() {
   const containerr = useRef();
@@ -48,8 +47,7 @@ function Sections() {
       id="sections"
     >
       <Section1 />
-      {/* <Section2 /> */}
-      <Section3/>
+      <Section2 />
     </div>
   );
 }

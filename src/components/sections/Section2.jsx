@@ -5,7 +5,7 @@ import Arrow from "../Arrow";
 import ochi from "/src/assets/OCHI.png";
 import laxer from "/src/assets/Laxer_1-2.png";
 import eminente from "/src/assets/Eminente_First.png";
-function Section3() {
+function Section2() {
   return (
     <section data-scroll-section>
       <div className="flex flex-col justify-center text-[7rem] font-semibold leading-[6.8rem]">
@@ -59,7 +59,7 @@ function Section3() {
             projectDescription={"Logo Design, Website Design, Development"}
             projectDate={2023}
           />
-          <Arrow justify={"end"} degree={45} />
+          <Arrow justify={"end"} degree={90} />
           <ProjectCard
             projectTitle={"MAKHNO"}
             projectImage={eminente}
@@ -67,19 +67,19 @@ function Section3() {
             projectDate={2023}
           />
         </div>
-        <div
-          data-scroll
-          className="all-projects-btn-container w-full mt-20 h-[500px] flex justify-center"
-        >
-          <button className="all-projects-brn hover:scale-90 transition-transform bg-orangePulp h-[320px] w-[320px] flex justify-center items-center rounded-full p-20">
-            <div className="text-base font-semibold flex w-fit">
-              <p>All Projects</p>(<span className="font-light italic">18</span>)
-            </div>
-          </button>
-        </div>
+      </div>
+      <div
+        data-scroll
+        className="all-projects-btn-container w-full h-[500px] bg-red-500 flex justify-center"
+      >
+        <button className="all-projects-brn hover:scale-90 transition-transform bg-orangePulp h-[320px] w-[320px] flex justify-center items-center rounded-full p-20">
+          <div className="text-base font-semibold flex w-fit">
+            <p>All Projects</p>(<span className="font-light italic">18</span>)
+          </div>
+        </button>
       </div>
     </section>
   );
 }
 
-export default Section3;
+export default Section2;

@@ -95,10 +95,10 @@ div.showcase {
   justify-content: start;
   justify-items: start; */
   column-gap: 1.5rem;
-  row-gap: 0;
+  row-gap: 1.5rem;
   grid-template-columns: auto 35% 35%;
-  grid-template-rows: 33% 33% 43%;
-  padding-bottom: 200px;
+  grid-template-rows: 30% 30% 40% ;
+  /* padding-bottom: 200px; */
 }
 
 div.project-card:nth-child(5) {
