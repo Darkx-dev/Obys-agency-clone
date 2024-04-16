@@ -130,6 +130,16 @@ button.arrow-container:nth-child(4) svg {
   rotate: -45deg;
 }
 
+.infinite-text-container span {
+  font-family: "Silk Serif", Plain ;
+  font-style: italic;
+  transition: all 0.25s;
+  color: transparent;
+  text-decoration: none;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+
 @keyframes blink {
   0% {
     opacity: 1;
