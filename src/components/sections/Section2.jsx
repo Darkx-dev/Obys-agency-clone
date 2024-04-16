@@ -9,17 +9,11 @@ function Section2() {
   return (
     <section data-scroll-container>
       <div className="flex flex-col justify-center text-[7rem] font-semibold leading-[6.8rem]">
-        <div data-scroll className="top-container mt-32 mb-10 flex justify-center gap-20 ">
-          <div
-           
-            className="left-container justify-self-end"
-          >
+        <div data-scroll className="top-container grid grid-cols-4 gap-24">
+          <div className="left-container justify-self-end">
             <div className="order w-fit">03</div>
           </div>
-          <div
-           
-            className="right-container z-10 border-b-2 pb-20"
-          >
+          <div className="right-container col-span-3 z-10 border-b-2 h-[200px]">
             <h1>OUR PROJECTS</h1>
           </div>
         </div>
@@ -66,10 +60,7 @@ function Section2() {
           />
         </div>
       </div>
-      <div
-       
-        className="all-projects-btn-container w-full h-[500px] bg-red-500 flex justify-center"
-      >
+      <div className="all-projects-btn-container w-full h-[650px] flex justify-center items-center">
         <button className="all-projects-btn hover:scale-90 transition-transform bg-orangePulp h-[320px] w-[320px] flex justify-center items-center rounded-full p-20">
           <div className="text-base font-semibold flex w-fit">
             <p>All Projects</p>(<span className="font-light italic">18</span>)

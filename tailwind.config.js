@@ -7,6 +7,7 @@ export default {
         loaderBlack: "#0B0B0B",
         mainBlack: "#151515",
         orangePulp: "#FFA63D",
+        awardsBlue: "#3F7DF4"
       },
     },
   },

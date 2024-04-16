@@ -1,11 +1,11 @@
 function Section1() {
   return (
     <section data-scroll-container className="w-full backdrop-blur-sm" id="sec1">
-      <div className="flex justify-center gap-20  text-[7rem] font-semibold leading-[6.8rem]">
+      <div className="top-container grid grid-cols-4 gap-24 text-[7rem] font-semibold leading-[6.8rem]">
         <div className="left-container justify-self-end">
           <div className="order w-fit">01</div>
         </div>
-        <div className="right-container z-10">
+        <div className="right-container text-nowrap z-10">
           <div id="line__1">
             <h1>WE DESIGN</h1>
           </div>

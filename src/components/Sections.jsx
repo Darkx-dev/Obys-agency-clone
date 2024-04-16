@@ -43,7 +43,7 @@ function Sections() {
   return (
     <div
       ref={containerr}
-      className="absolute w-full pt-48 h-min-screen"
+      className="w-full pt-48 h-min-screen"
       id="sections"
     >
       <Section1 />
