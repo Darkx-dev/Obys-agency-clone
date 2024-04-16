@@ -4,7 +4,6 @@ function Arrow({ degree, justify }) {
   return (
     <button
       data-scroll
-      data-scroll-speed="2"
       className={`arrow-container self-end border w-[330px] justify-self-${justify} h-[330px] rounded-full p-20`}
     >
       <svg

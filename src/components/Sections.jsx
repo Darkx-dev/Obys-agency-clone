@@ -5,6 +5,7 @@ import gsap from "gsap/gsap-core";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import LocomotiveScroll from "locomotive-scroll";
 import { useEffect } from "react";
+import Section3 from "./sections/Section3";
 
 function Sections() {
   const containerr = useRef();
@@ -42,12 +43,12 @@ function Sections() {
   return (
     <div
       ref={containerr}
-      data-scroll
       className="absolute w-full pt-48 h-min-screen"
       id="sections"
     >
       <Section1 />
       <Section2 />
+      <Section3 />
     </div>
   );
 }
